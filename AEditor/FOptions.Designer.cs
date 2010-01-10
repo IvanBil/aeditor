@@ -28,6 +28,7 @@ namespace AEditor
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FOptions));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.TBPath = new System.Windows.Forms.TextBox();
@@ -51,196 +52,175 @@ namespace AEditor
             // 
             // groupBox1
             // 
+            this.groupBox1.AccessibleDescription = null;
+            this.groupBox1.AccessibleName = null;
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.BackgroundImage = null;
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.TBPath);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox1.Location = new System.Drawing.Point(9, 10);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(291, 66);
-            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Директории";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(268, 39);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.AccessibleDescription = null;
+            this.button1.AccessibleName = null;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.BackgroundImage = null;
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(22, 22);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "...";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // TBPath
             // 
-            this.TBPath.Location = new System.Drawing.Point(8, 39);
-            this.TBPath.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TBPath.AccessibleDescription = null;
+            this.TBPath.AccessibleName = null;
+            resources.ApplyResources(this.TBPath, "TBPath");
+            this.TBPath.BackgroundImage = null;
+            this.TBPath.Font = null;
             this.TBPath.Name = "TBPath";
-            this.TBPath.Size = new System.Drawing.Size(264, 23);
-            this.TBPath.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 21);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.AccessibleDescription = null;
+            this.label1.AccessibleName = null;
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Font = null;
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(279, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Путь к ассемблеру, линкеру и дебаггеру:";
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(183, 284);
-            this.btnOK.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOK.AccessibleDescription = null;
+            this.btnOK.AccessibleName = null;
+            resources.ApplyResources(this.btnOK, "btnOK");
+            this.btnOK.BackgroundImage = null;
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(56, 23);
-            this.btnOK.TabIndex = 1;
-            this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnCansel
             // 
-            this.btnCansel.Location = new System.Drawing.Point(244, 284);
-            this.btnCansel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCansel.AccessibleDescription = null;
+            this.btnCansel.AccessibleName = null;
+            resources.ApplyResources(this.btnCansel, "btnCansel");
+            this.btnCansel.BackgroundImage = null;
             this.btnCansel.Name = "btnCansel";
-            this.btnCansel.Size = new System.Drawing.Size(56, 23);
-            this.btnCansel.TabIndex = 2;
-            this.btnCansel.Text = "Cansel";
             this.btnCansel.UseVisualStyleBackColor = true;
             this.btnCansel.Click += new System.EventHandler(this.btnCansel_Click);
             // 
             // groupBox2
             // 
+            this.groupBox2.AccessibleDescription = null;
+            this.groupBox2.AccessibleName = null;
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.BackgroundImage = null;
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.tbTdArgs);
             this.groupBox2.Controls.Add(this.tbTlinkArgs);
             this.groupBox2.Controls.Add(this.tbTasmArgs);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox2.Location = new System.Drawing.Point(9, 76);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox2.Size = new System.Drawing.Size(291, 107);
-            this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Параметры командной строки";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 76);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.AccessibleDescription = null;
+            this.label4.AccessibleName = null;
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Font = null;
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 17);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Дебаггер:";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 49);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.AccessibleDescription = null;
+            this.label3.AccessibleName = null;
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Font = null;
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 17);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Линкер:";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 24);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.AccessibleDescription = null;
+            this.label2.AccessibleName = null;
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Font = null;
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 17);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Ассемблер:";
             // 
             // tbTdArgs
             // 
-            this.tbTdArgs.Location = new System.Drawing.Point(95, 72);
-            this.tbTdArgs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbTdArgs.AccessibleDescription = null;
+            this.tbTdArgs.AccessibleName = null;
+            resources.ApplyResources(this.tbTdArgs, "tbTdArgs");
+            this.tbTdArgs.BackgroundImage = null;
+            this.tbTdArgs.Font = null;
             this.tbTdArgs.Name = "tbTdArgs";
-            this.tbTdArgs.Size = new System.Drawing.Size(76, 23);
-            this.tbTdArgs.TabIndex = 2;
             // 
             // tbTlinkArgs
             // 
-            this.tbTlinkArgs.Location = new System.Drawing.Point(95, 46);
-            this.tbTlinkArgs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbTlinkArgs.AccessibleDescription = null;
+            this.tbTlinkArgs.AccessibleName = null;
+            resources.ApplyResources(this.tbTlinkArgs, "tbTlinkArgs");
+            this.tbTlinkArgs.BackgroundImage = null;
+            this.tbTlinkArgs.Font = null;
             this.tbTlinkArgs.Name = "tbTlinkArgs";
-            this.tbTlinkArgs.Size = new System.Drawing.Size(76, 23);
-            this.tbTlinkArgs.TabIndex = 1;
             // 
             // tbTasmArgs
             // 
-            this.tbTasmArgs.Location = new System.Drawing.Point(95, 21);
-            this.tbTasmArgs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbTasmArgs.AccessibleDescription = null;
+            this.tbTasmArgs.AccessibleName = null;
+            resources.ApplyResources(this.tbTasmArgs, "tbTasmArgs");
+            this.tbTasmArgs.BackgroundImage = null;
+            this.tbTasmArgs.Font = null;
             this.tbTasmArgs.Name = "tbTasmArgs";
-            this.tbTasmArgs.Size = new System.Drawing.Size(76, 23);
-            this.tbTasmArgs.TabIndex = 0;
             // 
             // btnCustomize
             // 
-            this.btnCustomize.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnCustomize.Location = new System.Drawing.Point(9, 284);
-            this.btnCustomize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCustomize.AccessibleDescription = null;
+            this.btnCustomize.AccessibleName = null;
+            resources.ApplyResources(this.btnCustomize, "btnCustomize");
+            this.btnCustomize.BackgroundImage = null;
             this.btnCustomize.Name = "btnCustomize";
-            this.btnCustomize.Size = new System.Drawing.Size(88, 23);
-            this.btnCustomize.TabIndex = 4;
-            this.btnCustomize.Text = "По умолчанию";
             this.btnCustomize.UseVisualStyleBackColor = true;
             this.btnCustomize.Click += new System.EventHandler(this.btnCustomize_Click);
             // 
             // btnFont
             // 
-            this.btnFont.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnFont.Location = new System.Drawing.Point(10, 240);
-            this.btnFont.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFont.AccessibleDescription = null;
+            this.btnFont.AccessibleName = null;
+            resources.ApplyResources(this.btnFont, "btnFont");
+            this.btnFont.BackgroundImage = null;
             this.btnFont.Name = "btnFont";
-            this.btnFont.Size = new System.Drawing.Size(87, 29);
-            this.btnFont.TabIndex = 5;
-            this.btnFont.Text = "Шрифт...";
             this.btnFont.UseVisualStyleBackColor = true;
             this.btnFont.Click += new System.EventHandler(this.btnFont_Click);
             // 
             // chkTD
             // 
-            this.chkTD.AutoSize = true;
-            this.chkTD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.chkTD.Location = new System.Drawing.Point(9, 188);
-            this.chkTD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chkTD.AccessibleDescription = null;
+            this.chkTD.AccessibleName = null;
+            resources.ApplyResources(this.chkTD, "chkTD");
+            this.chkTD.BackgroundImage = null;
             this.chkTD.Name = "chkTD";
-            this.chkTD.Size = new System.Drawing.Size(307, 21);
-            this.chkTD.TabIndex = 6;
-            this.chkTD.Text = "Автоматически запускать Turbo Debugger";
             this.chkTD.UseVisualStyleBackColor = true;
             // 
             // chkLogging
             // 
-            this.chkLogging.AutoSize = true;
-            this.chkLogging.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.chkLogging.Location = new System.Drawing.Point(9, 212);
-            this.chkLogging.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chkLogging.AccessibleDescription = null;
+            this.chkLogging.AccessibleName = null;
+            resources.ApplyResources(this.chkLogging, "chkLogging");
+            this.chkLogging.BackgroundImage = null;
             this.chkLogging.Name = "chkLogging";
-            this.chkLogging.Size = new System.Drawing.Size(167, 21);
-            this.chkLogging.TabIndex = 7;
-            this.chkLogging.Text = "Удалять старые логи";
             this.chkLogging.UseVisualStyleBackColor = true;
             // 
             // FOptions
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AccessibleDescription = null;
+            this.AccessibleName = null;
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(309, 314);
+            this.BackgroundImage = null;
             this.Controls.Add(this.chkLogging);
             this.Controls.Add(this.chkTD);
             this.Controls.Add(this.btnFont);
@@ -249,11 +229,11 @@ namespace AEditor
             this.Controls.Add(this.btnCansel);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = null;
             this.Name = "FOptions";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "FOptions";
             this.Load += new System.EventHandler(this.FOptions_Load);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FOptions_FormClosed);
             this.groupBox1.ResumeLayout(false);
