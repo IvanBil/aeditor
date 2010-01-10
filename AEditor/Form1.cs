@@ -167,7 +167,7 @@ namespace AEditor
             e.Cancel = false;
             if (true)
             {
-                switch (MessageBox.Show("Сохранить изменения в файле " + AsmPrg.FileName + " ?",
+                switch (MessageBox.Show(Properties.Resources.FileNotSavedDialog + " " + AsmPrg.FileName + " ?",
                     GlobalOptions.Instance.DefaultThisProgramName, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning,
                     MessageBoxDefaultButton.Button1))
                 {
@@ -191,8 +191,8 @@ namespace AEditor
             //txtPos.Line = LineNumber;
             //txtPos.Pos = Pos;
             //AsmPrg.CaretPos = txtPos; 
-            MessageBox.Show("Text Chanded");
             this.IsTextChanged = true;
+            StatusLabel.Text = TBProgram.Text.Length.ToString();
         }
 
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
