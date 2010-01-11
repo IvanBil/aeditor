@@ -5,6 +5,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using System.Collections;
 using System.Drawing;
+using System.Text.RegularExpressions;
 
 namespace AEditor
 {

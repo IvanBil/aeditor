@@ -266,7 +266,6 @@ namespace AEditor
             this.TBProgram.Margins.Margin1.Width = 5;
             this.TBProgram.Name = "TBProgram";
             this.TBProgram.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TBProgram_KeyPress);
-            this.TBProgram.TextChanged += new System.EventHandler(this.TBProgram_TextChanged);
             this.TBProgram.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TBProgram_MouseClick);
             this.TBProgram.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TBProgram_KeyDown);
             // 
