@@ -61,11 +61,47 @@ namespace AEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to All Files.
+        /// </summary>
+        internal static string AllFiles {
+            get {
+                return ResourceManager.GetString("AllFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you shure you want to do this?.
+        /// </summary>
+        internal static string AreYouShureToDoThis {
+            get {
+                return ResourceManager.GetString("AreYouShureToDoThis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Assembler code files.
+        /// </summary>
+        internal static string AssemblerCode {
+            get {
+                return ResourceManager.GetString("AssemblerCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Save changes to file.
         /// </summary>
         internal static string FileNotSavedDialog {
             get {
                 return ResourceManager.GetString("FileNotSavedDialog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Loading defaults.
+        /// </summary>
+        internal static string LoadingDefaults {
+            get {
+                return ResourceManager.GetString("LoadingDefaults", resourceCulture);
             }
         }
     }

@@ -117,7 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AllFiles" xml:space="preserve">
+    <value>All Files</value>
+  </data>
+  <data name="AreYouShureToDoThis" xml:space="preserve">
+    <value>Are you shure you want to do this?</value>
+  </data>
+  <data name="AssemblerCode" xml:space="preserve">
+    <value>Assembler code files</value>
+  </data>
   <data name="FileNotSavedDialog" xml:space="preserve">
     <value>Save changes to file</value>
+  </data>
+  <data name="LoadingDefaults" xml:space="preserve">
+    <value>Loading defaults</value>
   </data>
 </root>

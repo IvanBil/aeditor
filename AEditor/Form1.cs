@@ -90,13 +90,13 @@ namespace AEditor
         private void openToolStripButton_Click(object sender, EventArgs e)
         {
             OpenFileDialog Ofd = new OpenFileDialog();
-            Ofd.Filter = "Тексты программ на ассемблере (*.asm)|*.asm|Все Файлы (*.*)|*.*";
+            Ofd.Filter = Properties.Resources.AssemblerCode + " (*.asm)|*.asm|" + Properties.Resources.AllFiles + " (*.*)|*.*";
             Ofd.InitialDirectory = Application.StartupPath;
             if (Ofd.ShowDialog() == DialogResult.OK)
             {
                 if (this.IsTextChanged)
                 {
-                    if (MessageBox.Show("Сохранить изменения в файле " + AsmPrg.FileName + " ?",
+                    if (MessageBox.Show(Properties.Resources.FileNotSavedDialog + " " + AsmPrg.FileName + " ?",
                         GlobalOptions.Instance.DefaultThisProgramName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning,
                         MessageBoxDefaultButton.Button1) == DialogResult.Yes)
                     {
