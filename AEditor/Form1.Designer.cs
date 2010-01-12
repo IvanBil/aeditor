@@ -265,6 +265,14 @@ namespace AEditor
             this.TBProgram.Margins.Margin0.Width = 20;
             this.TBProgram.Margins.Margin1.Width = 5;
             this.TBProgram.Name = "TBProgram";
+            this.TBProgram.Styles.BraceBad.FontName = "Verdana";
+            this.TBProgram.Styles.BraceLight.FontName = "Verdana";
+            this.TBProgram.Styles.ControlChar.FontName = "Verdana";
+            this.TBProgram.Styles.Default.FontName = "Verdana";
+            this.TBProgram.Styles.IndentGuide.FontName = "Verdana";
+            this.TBProgram.Styles.LastPredefined.FontName = "Verdana";
+            this.TBProgram.Styles.LineNumber.FontName = "Verdana";
+            this.TBProgram.Styles.Max.FontName = "Verdana";
             this.TBProgram.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TBProgram_KeyPress);
             this.TBProgram.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TBProgram_MouseClick);
             this.TBProgram.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TBProgram_KeyDown);
