@@ -9,8 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AEditor</RootNamespace>
     <AssemblyName>AEditor</AssemblyName>
-    <StartupObject>
-    </StartupObject>
+    <StartupObject>AEditor.Program</StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
