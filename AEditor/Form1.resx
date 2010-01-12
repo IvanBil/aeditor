@@ -232,10 +232,10 @@
     <value>E&amp;xit</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
+    <value>37, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Файл</value>
+    <value>&amp;File</value>
   </data>
   <data name="undoToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+Z</value>
@@ -359,34 +359,34 @@
     <value>Select &amp;All</value>
   </data>
   <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 20</value>
+    <value>39, 20</value>
   </data>
   <data name="editToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Правка</value>
+    <value>&amp;Edit</value>
   </data>
   <data name="tsmiErrorMessages.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="tsmiErrorMessages.Text" xml:space="preserve">
-    <value>Сообщения об ошибках...</value>
+    <value>Error messages...</value>
   </data>
   <data name="logфайлToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="logфайлToolStripMenuItem.Text" xml:space="preserve">
-    <value>log-файл...</value>
+    <value>Log file</value>
   </data>
   <data name="tsmView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 20</value>
+    <value>48, 20</value>
   </data>
   <data name="tsmView.Text" xml:space="preserve">
-    <value>Пока&amp;зать</value>
+    <value>&amp;Show</value>
   </data>
   <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 20</value>
+    <value>70, 20</value>
   </data>
   <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Настройки...</value>
+    <value>Se&amp;ttings...</value>
   </data>
   <data name="MainMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -711,9 +711,6 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>Russian</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>

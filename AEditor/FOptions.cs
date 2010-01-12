@@ -72,7 +72,7 @@ namespace AEditor
 
         private void btnCustomize_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Вы уверены, что хотите это сделать?", "Сброс к заводским настройкам", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (MessageBox.Show(Properties.Resources.AreYouShureToDoThis, Properties.Resources.LoadingDefaults, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 FMain Form1 = this.Owner as FMain;
                 Form1.AsmPrg.Options = new AsmProgram.ApplicationOptions();
