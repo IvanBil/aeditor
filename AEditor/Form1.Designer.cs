@@ -54,6 +54,9 @@ namespace AEditor
             this.tsmiErrorMessages = new System.Windows.Forms.ToolStripMenuItem();
             this.logÙ‡ÈÎToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.onlineDocumentationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.TBProgram = new ScintillaNet.Scintilla();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -86,7 +89,8 @@ namespace AEditor
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
             this.tsmView,
-            this.toolsToolStripMenuItem});
+            this.toolsToolStripMenuItem,
+            this.helpToolStripMenuItem});
             this.MainMenu.Name = "MainMenu";
             // 
             // fileToolStripMenuItem
@@ -333,6 +337,39 @@ namespace AEditor
             this.toolsToolStripMenuItem.ShortcutKeyDisplayString = null;
             this.toolsToolStripMenuItem.Click += new System.EventHandler(this.toolsToolStripMenuItem_Click);
             // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.AccessibleDescription = null;
+            this.helpToolStripMenuItem.AccessibleName = null;
+            resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
+            this.helpToolStripMenuItem.BackgroundImage = null;
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.onlineDocumentationToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.ShortcutKeyDisplayString = null;
+            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
+            // 
+            // onlineDocumentationToolStripMenuItem
+            // 
+            this.onlineDocumentationToolStripMenuItem.AccessibleDescription = null;
+            this.onlineDocumentationToolStripMenuItem.AccessibleName = null;
+            resources.ApplyResources(this.onlineDocumentationToolStripMenuItem, "onlineDocumentationToolStripMenuItem");
+            this.onlineDocumentationToolStripMenuItem.BackgroundImage = null;
+            this.onlineDocumentationToolStripMenuItem.Name = "onlineDocumentationToolStripMenuItem";
+            this.onlineDocumentationToolStripMenuItem.ShortcutKeyDisplayString = null;
+            this.onlineDocumentationToolStripMenuItem.Click += new System.EventHandler(this.onlineDocumentationToolStripMenuItem_Click);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.AccessibleDescription = null;
+            this.aboutToolStripMenuItem.AccessibleName = null;
+            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
+            this.aboutToolStripMenuItem.BackgroundImage = null;
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.ShortcutKeyDisplayString = null;
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
             // panel1
             // 
             this.panel1.AccessibleDescription = null;
@@ -570,6 +607,9 @@ namespace AEditor
         private System.Windows.Forms.ToolStripMenuItem linkToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logÙ‡ÈÎToolStripMenuItem;
         public ScintillaNet.Scintilla TBProgram;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem onlineDocumentationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
 
     }
 }
