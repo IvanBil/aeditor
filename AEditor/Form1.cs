@@ -463,6 +463,35 @@ namespace AEditor
             }
         }
 
+        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Application.ProductName + " version: " + Application.ProductVersion + Environment.NewLine +
+                "Assembler code editing tool." + Environment.NewLine + 
+                Application.ProductName + " site: http://aeditor.codeplex.com/" + Environment.NewLine +
+                "Please, report bugs and ask questions to:" + Environment.NewLine +
+                ("http://aeditor.codeplex.com/Thread/List.aspx"),
+                "About " + Application.ProductName);
+
+            //TODO: Translate to Russian and show links as hyperlinks
+        }
+
+        private void onlineDocumentationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Process.Start("http://aeditor.codeplex.com/documentation");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
        
 
     }
