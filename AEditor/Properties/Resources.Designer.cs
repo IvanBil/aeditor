@@ -61,6 +61,15 @@ namespace AEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to About.
+        /// </summary>
+        internal static string About {
+            get {
+                return ResourceManager.GetString("About", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to All Files.
         /// </summary>
         internal static string AllFiles {
@@ -79,11 +88,29 @@ namespace AEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Assembler code editing tool..
+        /// </summary>
+        internal static string AsmCodeEditingTool {
+            get {
+                return ResourceManager.GetString("AsmCodeEditingTool", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Assembler code files.
         /// </summary>
         internal static string AssemblerCode {
             get {
                 return ResourceManager.GetString("AssemblerCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
             }
         }
         
@@ -102,6 +129,33 @@ namespace AEditor.Properties {
         internal static string LoadingDefaults {
             get {
                 return ResourceManager.GetString("LoadingDefaults", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please, report bugs and ask questions to.
+        /// </summary>
+        internal static string PleaseReportBugsTo {
+            get {
+                return ResourceManager.GetString("PleaseReportBugsTo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Site.
+        /// </summary>
+        internal static string Site {
+            get {
+                return ResourceManager.GetString("Site", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Version.
+        /// </summary>
+        internal static string Version {
+            get {
+                return ResourceManager.GetString("Version", resourceCulture);
             }
         }
     }

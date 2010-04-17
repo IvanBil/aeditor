@@ -470,14 +470,21 @@ namespace AEditor
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Application.ProductName + " version: " + Application.ProductVersion + Environment.NewLine +
-                "Assembler code editing tool." + Environment.NewLine + 
-                Application.ProductName + " site: http://aeditor.codeplex.com/" + Environment.NewLine +
-                "Please, report bugs and ask questions to:" + Environment.NewLine +
-                ("http://aeditor.codeplex.com/Thread/List.aspx"),
-                "About " + Application.ProductName);
+            //HLinkMessageBox.Show(Application.ProductName + " version: " + Application.ProductVersion + Environment.NewLine +
+            //    "Assembler code editing tool." + Environment.NewLine + 
+            //    Application.ProductName + " site: http://aeditor.codeplex.com/" + Environment.NewLine +
+            //    "Please, report bugs and ask questions to:" + Environment.NewLine +
+            //    ("http://aeditor.codeplex.com/Thread/List.aspx" + Environment.NewLine),
+            //    "About " + Application.ProductName);
+            HLinkMessageBox.Show(
+                Application.ProductName + ". " + Properties.Resources.Version + ": " + Application.ProductVersion + Environment.NewLine +
+                Properties.Resources.AsmCodeEditingTool + "." + Environment.NewLine +
+                Properties.Resources.Site + ": http://aeditor.codeplex.com/" + Environment.NewLine +
+                Properties.Resources.PleaseReportBugsTo + ":" + Environment.NewLine +
+                "http://aeditor.codeplex.com/Thread/List.aspx" + Environment.NewLine,
+                Properties.Resources.About + " " + Application.ProductName);
 
-            //TODO: Translate to Russian and show links as hyperlinks
+
         }
 
         private void onlineDocumentationToolStripMenuItem_Click(object sender, EventArgs e)

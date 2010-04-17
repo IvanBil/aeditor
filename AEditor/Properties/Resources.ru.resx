@@ -117,19 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>О программе</value>
+  </data>
   <data name="AllFiles" xml:space="preserve">
     <value>Все файлы</value>
   </data>
   <data name="AreYouShureToDoThis" xml:space="preserve">
     <value>Вы уверены, что хотите это сделать?</value>
   </data>
+  <data name="AsmCodeEditingTool" xml:space="preserve">
+    <value>Редактор кода ассемблера</value>
+  </data>
   <data name="AssemblerCode" xml:space="preserve">
     <value>Тексты программ на ассемблере</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
   </data>
   <data name="FileNotSavedDialog" xml:space="preserve">
     <value>Сохранить изменения в файле</value>
   </data>
   <data name="LoadingDefaults" xml:space="preserve">
     <value>Сброс к заводским настройкам</value>
+  </data>
+  <data name="PleaseReportBugsTo" xml:space="preserve">
+    <value>Задать вопросы и сообщить об ошибке можно здесь</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версия</value>
   </data>
 </root>
