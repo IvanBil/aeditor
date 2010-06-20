@@ -72,6 +72,14 @@ namespace AEditor
                 set { path = value; }
             }
 
+            private Stack<string> recentFiles;
+
+            public Stack<string> RecentFiles
+            {
+                get { return recentFiles; }
+                set { recentFiles = value; }
+            }
+
             public ApplicationOptions()
             {
                 this.Path = Application.StartupPath + "\\tasm";
@@ -80,7 +88,8 @@ namespace AEditor
                 this.TdArgs = " ";
                 this.RunTD = true;
                 this.ClearLog = true;
-                textFont = new Font(FontFamily.GenericSansSerif,8);    
+                textFont = new Font(FontFamily.GenericSansSerif,8);
+                RecentFiles = new Stack<string>(10);
             }
         }
         /// <summary>
