@@ -8,3 +8,6 @@ AEditor is Assembler editor that makes it easier to write, edit, compile and deb
  - Easy to use
  - Russian or English interface depending on OS interface language settings
 
+**Screenshot**
+
+![](docs/AEscreen.PNG)
